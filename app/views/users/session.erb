@@ -1,0 +1,9 @@
+<body>
+  <% if current_user %>
+    Welcome, <%= current_user.email %>
+
+  <% else %>
+  	Please go to home page to sign in!
+  	<a href="/">Home Page!</a>
+  <% end %>
+  </body>
