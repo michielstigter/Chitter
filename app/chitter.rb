@@ -4,7 +4,7 @@ require 'rack-flash'
 require './lib/user'
 require_relative 'helpers/application'
 require_relative 'data_mapper_setup'
-
+require_relative 'messaging'
 
 enable :sessions
 set :session_secret, 'super secret'
